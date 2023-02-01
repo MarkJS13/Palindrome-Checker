@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    background: rgb(79, 131, 165);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    width: 370px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 5px 6px #0f0f0f27;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    
+}
+
+form input {
+    color: rgb(79, 131, 165);
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(79, 131, 165);
+    width: 200px;
+    text-align: center;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form .btn {
+    padding: 2px 16px;
+    border: 0;
+    color: white;
+    background-color: rgb(79, 131, 165);
+    transition: all 0.3s;
+}
+
+form .btn:active {
+    transform: translate(3px, 3px);
+}
+
+.display-result p {
+    margin: 0;
+    color: rgb(79, 131, 165);
+    font-size: 20px;
+}
+
+.made {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
+}
